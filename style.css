@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* so if we add any padding or any border onto an element it doesnt actually affect the width of it */
+}
+
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  /* because most of the project will be something that's right in the middle of the viewport  */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  /* I don't want scroll bars to be shown on default */
+  margin: 0;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+  cursor: pointer;
+}
